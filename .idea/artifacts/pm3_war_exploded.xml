@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pm3_war_exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pm3_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="pm3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="servlet-api" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-j-8.4.0.jar" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="pm3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
